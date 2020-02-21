@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/AndyJiang99/SprintUofT/workflows/devBuild/badge.svg?branch=dev)](https://github.com/AndyJiang99/SprintUofT/actions)
+[![Actions Status](https://github.com/AndyJiang99/SprintUofT/workflows/build/badge.svg?branch=master)](https://github.com/AndyJiang99/SprintUofT/actions)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
