@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/AndyJiang99/SprintUofT/workflows/masterBuild/badge.svg?branch=master)](https://github.com/AndyJiang99/SprintUofT/actions)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
