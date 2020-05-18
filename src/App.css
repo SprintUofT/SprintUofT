@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root{
+  --circle-diam: 14px;
+  --line-width: 2px;
+  --primary-colour: #B721FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+} */
+
+.intro-para {
+  position: relative;
+}
+
+.intro-para h3 {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.intro-para p{
+  font-size: 15px;
+  margin-top: 0.75rem;
+}
+
+.intro-para::before {
+  position: absolute;
+  top: calc(var(--circle-diam) * 1.75);
+  left: calc( (var(--circle-diam) * -1) - var(--circle-diam)/2 );
+  width: var(--circle-diam);
+  height: var(--circle-diam);
+  background-color: var(--primary-colour);
+  display: block;
+  content: '';
+  border-radius: var(--circle-diam);
+}
+
+.intro-para::after {
+  position: absolute;
+  display: block;
+  content: '';
+  height: 100%;
+  width: var(--line-width);
+  background-color: var(--primary-colour);
+  top: calc(var(--circle-diam) * 1.75);
+  left: calc(var(--circle-diam) * -1 - var(--line-width)/2);
+}
+
+.intro-para:last-of-type::after {
+  display: none;
+}
+
+.contact-list{
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.contact-list li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 100px;
+}
+
+h1.slogan {
+  font-size: 60px;
+  margin: 0px;
+  background: -webkit-linear-gradient(left, #25CFFD, #B227FF);
+  background: -o-linear-gradient(right, #25CFFD, #B227FF);
+  background: -moz-linear-gradient(right, #25CFFD, #B227FF);
+  background: linear-gradient(to right, #25CFFD, #B227FF); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  padding: 0px;
+}
+
+#logo { width: 200px; height: 200px; }
+
+@media(max-width: 480px){
+  #logo {
+    width: 125px; height: 125px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1.slogan {
+    font-size: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .contact-list li {
+    margin-right: 50px;
   }
 }
