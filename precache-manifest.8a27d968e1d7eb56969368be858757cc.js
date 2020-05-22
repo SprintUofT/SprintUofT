@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0a4bee6b863cbfe88db5070451351bd",
+    "revision": "56a67d8702cbf547898171b75df81e79",
     "url": "/SprintUofT/index.html"
   },
   {
-    "revision": "8f0e6b3c899cdd32c95f",
+    "revision": "850feef78767f2054e48",
     "url": "/SprintUofT/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "b53fd867dc90345a10e2",
+    "revision": "dca5d1be31daa17e47e3",
     "url": "/SprintUofT/static/css/main.d5345fe6.chunk.css"
   },
   {
-    "revision": "8f0e6b3c899cdd32c95f",
-    "url": "/SprintUofT/static/js/2.3eebf5f1.chunk.js"
+    "revision": "850feef78767f2054e48",
+    "url": "/SprintUofT/static/js/2.3089bac6.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/SprintUofT/static/js/2.3eebf5f1.chunk.js.LICENSE.txt"
+    "url": "/SprintUofT/static/js/2.3089bac6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b53fd867dc90345a10e2",
-    "url": "/SprintUofT/static/js/main.fab237e3.chunk.js"
+    "revision": "dca5d1be31daa17e47e3",
+    "url": "/SprintUofT/static/js/main.f85cdf1f.chunk.js"
   },
   {
     "revision": "4cf383992ced4cbf54bf",
