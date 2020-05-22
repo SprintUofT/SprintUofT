@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 // import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+// import Row from 'react-bootstrap/Row';
 import Text from './components/home/introText';
 import {Container, Row, Col} from 'react-grid-system';
 import './App.css';
