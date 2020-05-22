@@ -67,8 +67,8 @@ export default function App() {
   );
 
   return (
-    <div className="App" style={{overflow: 'hidden'}}>>     
-            <Row>
+    <div className="App" style={{overflow: 'hidden'}}>    
+            {/* <Row>
               <Col sm={4}><img src={Logo} style={{width: "100%", height:"auto"}} alt=""/><h1>Accelerating Student Tech Careers</h1></Col>
               <Col sm={8}><img src={BlueCloud} style={{width: "100%", height:"auto"}} alt=""/></Col>
             </Row>
@@ -77,7 +77,7 @@ export default function App() {
             </Row>
             <Row>
               <Col sm={6}><img src={PinkCloud} style={{width: "100%", height:"auto"}}  alt=""/></Col>
-            </Row>
+            </Row> */}
       
 
       {/* <div style={{overflow: 'hidden'}}> */}
