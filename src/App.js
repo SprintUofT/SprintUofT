@@ -33,11 +33,12 @@ export default function App() {
     };
 
   const blueCloudStyle = (isMobile) ? {
-    width: '60%', 
+    // mobile
+    width: '50%', 
     height: 'auto',
     position: 'absolute',
-    right: '-15%',
-    top: '12.5%'
+    right: '-10%',
+    top: '-7%'
   } : {
     width: '50%', 
     height: '50%',
