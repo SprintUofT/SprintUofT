@@ -1,10 +1,10 @@
 import React from 'react';
-import Logo from './Icons/Logo.svg';
-import BlueCloud from './Icons/Blue_Cloud.svg';
-import LinkedIn from './Icons/LinkedIn_Logo.svg';
-import Facebook from './Icons/Facebook_Logo.svg';
-import Email from './Icons/Email_Logo.svg';
-import PinkCloud from './Icons/Pink_Cloud.svg';
+// import Logo from './Icons/Logo.svg';
+// import BlueCloud from './Icons/Blue_Cloud.svg';
+// import LinkedIn from './Icons/LinkedIn_Logo.svg';
+// import Facebook from './Icons/Facebook_Logo.svg';
+// import Email from './Icons/Email_Logo.svg';
+// import PinkCloud from './Icons/Pink_Cloud.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; 
 // import Container from 'react-bootstrap/Container';
