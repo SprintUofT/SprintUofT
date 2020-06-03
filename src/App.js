@@ -17,6 +17,7 @@ import ContactList from './components/contactList';
 
 export default function App() {
   const isMobile = window.innerWidth <= 480;
+  const isLong = window.innerHeight> 820;
 
   const pinkCloudStyle = (!isMobile) ? 
     {
@@ -38,10 +39,10 @@ export default function App() {
     height: 'auto',
     position: 'absolute',
     right: '-10%',
-    top: '-7%'
+    top: '-10%'
   } : {
-    width: '50%', 
-    height: '50%',
+    width: '60%', 
+    height: '60%',
     position: 'absolute',
     top: '-10%',
     right: '-10%'
@@ -57,7 +58,8 @@ export default function App() {
     //mobile
     <Row>
       <Col md={5}>  <Text/> </Col>
-      <Col md={7}>  {pinkCloud} </Col>
+      
+      {/* <Col md={7}>  {pinkCloud} </Col> */}
     </Row>
   ):(
     //desktop
@@ -66,6 +68,21 @@ export default function App() {
       <Col md={6}>  <Text/> </Col>
     </Row>
   );
+  const sloganFormat = (isMobile) ? {
+    // mobile
+    fontSize: '25px'
+  } : {
+    fontSize: '50px'
+  }
+
+  const nameFormat = (isMobile) ? {
+    // mobile
+    fontSize: '25px',
+    fontWeight: 'bolder'
+  } : {
+    fontSize: '50px',
+    fontWeight: 'bolder'
+  }
 
   return (
     <div className="App" style={{overflow: 'hidden'}}>    
@@ -83,12 +100,31 @@ export default function App() {
 
       {/* <div style={{overflow: 'hidden'}}> */}
         <Container>
-          <Row>
-            <Col md={8}>
+         
+            {/* <Col md={8}> */}
               {/* Logo and Slogan */}
-              <img id="logo" src={require('./Icons/Logo.svg')} alt="logo"/>
-              <h1 className="slogan">
-                Accelerating Student Tech Careers
+              <Row>
+                <Col sm={3}>
+                  <img id="logo" src={require('./Icons/Logo.svg')} alt="logo"/>
+                </Col>
+                <Col sm={1}>
+                </Col>
+                <Col sm={6} style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center"
+                        }}>
+                  <h1 className="name" style={nameFormat}>SprintUofT</h1>
+                </Col>
+              </Row>
+              
+              <Row>
+              <Col md={8}>
+              <h1 className="slogan" style={sloganFormat}>
+                Accelerating Student 
+              </h1>
+              <h1 className="slogan" style={sloganFormat}>
+                Tech Careers
               </h1>
               <ContactList 
                 facebook="https://www.google.ca"

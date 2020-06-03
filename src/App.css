@@ -84,6 +84,21 @@ h1.slogan {
   padding: 0px;
 }
 
+h1.name {
+  font-size: 60px;
+  margin: 0px;
+  background: -webkit-linear-gradient(left, #25CFFD, #B227FF);
+  background: -o-linear-gradient(right, #25CFFD, #B227FF);
+  background: -moz-linear-gradient(right, #25CFFD, #B227FF);
+  background: linear-gradient(to right, #25CFFD, #B227FF); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  padding: 0px;
+  /* text-align: center; */
+}
+
 #logo { width: 200px; height: 200px; }
 
 @media(max-width: 480px){
