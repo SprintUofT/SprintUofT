@@ -17,7 +17,7 @@ import ContactList from './components/contactList';
 
 export default function App() {
   const isMobile = window.innerWidth <= 480;
-  const isLong = window.innerHeight> 820;
+  // const isLong = window.innerHeight> 820;
 
   const pinkCloudStyle = (!isMobile) ? 
     {
