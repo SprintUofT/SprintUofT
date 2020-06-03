@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56a67d8702cbf547898171b75df81e79",
+    "revision": "d45eb1324636df63c755e78329cb02f9",
     "url": "/SprintUofT/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SprintUofT/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "dca5d1be31daa17e47e3",
-    "url": "/SprintUofT/static/css/main.d5345fe6.chunk.css"
+    "revision": "ac0778e26624506cc318",
+    "url": "/SprintUofT/static/css/main.9d1b748d.chunk.css"
   },
   {
     "revision": "850feef78767f2054e48",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SprintUofT/static/js/2.3089bac6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dca5d1be31daa17e47e3",
-    "url": "/SprintUofT/static/js/main.f85cdf1f.chunk.js"
+    "revision": "ac0778e26624506cc318",
+    "url": "/SprintUofT/static/js/main.5f27e491.chunk.js"
   },
   {
     "revision": "4cf383992ced4cbf54bf",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SprintUofT/static/media/LinkedIn_Logo.976b193e.svg"
   },
   {
-    "revision": "84f0d948c63c77b1168b1dd5979d673a",
-    "url": "/SprintUofT/static/media/Logo.84f0d948.svg"
+    "revision": "4cb654bfcd37c2c45277e0b947346931",
+    "url": "/SprintUofT/static/media/Logo.4cb654bf.svg"
   },
   {
     "revision": "a29f2c11f3aea7b3a4b8ce82f91d8495",
