@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d45eb1324636df63c755e78329cb02f9",
+    "revision": "2e5ffb9034b7f00767d11a22642f9cb1",
     "url": "/SprintUofT/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SprintUofT/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "ac0778e26624506cc318",
+    "revision": "d72d9e2cfb91d98cc616",
     "url": "/SprintUofT/static/css/main.9d1b748d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SprintUofT/static/js/2.3089bac6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ac0778e26624506cc318",
-    "url": "/SprintUofT/static/js/main.5f27e491.chunk.js"
+    "revision": "d72d9e2cfb91d98cc616",
+    "url": "/SprintUofT/static/js/main.862de829.chunk.js"
   },
   {
     "revision": "4cf383992ced4cbf54bf",
