@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.9d1b748d.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.2a3d33a0.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.2a3d33a0.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.7e2decdb.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.7e2decdb.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/react-gh-pages/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.3089bac6.chunk.js": "/react-gh-pages/static/js/2.3089bac6.chunk.js",
-    "static/js/2.3089bac6.chunk.js.map": "/react-gh-pages/static/js/2.3089bac6.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.48065f3ed054f33812d465fd56e67be4.js": "/react-gh-pages/precache-manifest.48065f3ed054f33812d465fd56e67be4.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/react-gh-pages/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.9d1b748d.chunk.css.map": "/react-gh-pages/static/css/main.9d1b748d.chunk.css.map",
-    "static/js/2.3089bac6.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.3089bac6.chunk.js.LICENSE.txt",
-    "static/media/Blue_Cloud.svg": "/react-gh-pages/static/media/Blue_Cloud.cfdf1e9c.svg",
-    "static/media/Email_Logo.svg": "/react-gh-pages/static/media/Email_Logo.64784f4c.svg",
-    "static/media/Facebook_Logo.svg": "/react-gh-pages/static/media/Facebook_Logo.c6c3fd72.svg",
-    "static/media/LinkedIn_Logo.svg": "/react-gh-pages/static/media/LinkedIn_Logo.976b193e.svg",
-    "static/media/Logo.svg": "/react-gh-pages/static/media/Logo.7fa74f3e.svg",
-    "static/media/Pink_Cloud.svg": "/react-gh-pages/static/media/Pink_Cloud.a29f2c11.svg"
+    "main.css": "/SprintUofT/static/css/main.9d1b748d.chunk.css",
+    "main.js": "/SprintUofT/static/js/main.c96c7cdf.chunk.js",
+    "main.js.map": "/SprintUofT/static/js/main.c96c7cdf.chunk.js.map",
+    "runtime-main.js": "/SprintUofT/static/js/runtime-main.5fcd2cdd.js",
+    "runtime-main.js.map": "/SprintUofT/static/js/runtime-main.5fcd2cdd.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/SprintUofT/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.3089bac6.chunk.js": "/SprintUofT/static/js/2.3089bac6.chunk.js",
+    "static/js/2.3089bac6.chunk.js.map": "/SprintUofT/static/js/2.3089bac6.chunk.js.map",
+    "index.html": "/SprintUofT/index.html",
+    "precache-manifest.dc6d30126016b891ee1fd5e5168836a4.js": "/SprintUofT/precache-manifest.dc6d30126016b891ee1fd5e5168836a4.js",
+    "service-worker.js": "/SprintUofT/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/SprintUofT/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.9d1b748d.chunk.css.map": "/SprintUofT/static/css/main.9d1b748d.chunk.css.map",
+    "static/js/2.3089bac6.chunk.js.LICENSE.txt": "/SprintUofT/static/js/2.3089bac6.chunk.js.LICENSE.txt",
+    "static/media/Blue_Cloud.svg": "/SprintUofT/static/media/Blue_Cloud.cfdf1e9c.svg",
+    "static/media/Email_Logo.svg": "/SprintUofT/static/media/Email_Logo.64784f4c.svg",
+    "static/media/Facebook_Logo.svg": "/SprintUofT/static/media/Facebook_Logo.c6c3fd72.svg",
+    "static/media/LinkedIn_Logo.svg": "/SprintUofT/static/media/LinkedIn_Logo.976b193e.svg",
+    "static/media/Logo.svg": "/SprintUofT/static/media/Logo.7fa74f3e.svg",
+    "static/media/Pink_Cloud.svg": "/SprintUofT/static/media/Pink_Cloud.a29f2c11.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e2decdb.js",
+    "static/js/runtime-main.5fcd2cdd.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.3089bac6.chunk.js",
     "static/css/main.9d1b748d.chunk.css",
-    "static/js/main.2a3d33a0.chunk.js"
+    "static/js/main.c96c7cdf.chunk.js"
   ]
 }
