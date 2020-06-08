@@ -5,7 +5,7 @@ export default function IntroPara(props){
     const isMobile = window.innerWidth <= 480;
     const mobileFontHeading = (isMobile) ? {
         // mobile
-        fontSize: '15px',
+        fontSize: '13px',
         fontWeight: 'bolder' 
       } : {
         fontSize: '25px',
@@ -14,7 +14,7 @@ export default function IntroPara(props){
 
       const mobileFontText = (isMobile) ? {
         // mobile
-        fontSize: '13px',
+        fontSize: '11px',
       } : {
         fontSize: '16px',
       }

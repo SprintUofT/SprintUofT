@@ -39,12 +39,12 @@ export default function App() {
     height: 'auto',
     position: 'absolute',
     right: '-10%',
-    top: '-10%'
+    top: '0%'
   } : {
     width: '60%', 
     height: '60%',
     position: 'absolute',
-    top: '-10%',
+    top: '-20%',
     right: '-10%'
   }
 
@@ -75,72 +75,31 @@ export default function App() {
     fontSize: '50px'
   }
 
-  const nameFormat = (isMobile) ? {
-    // mobile
-    fontSize: '25px',
-    fontWeight: 'bolder'
-  } : {
-    fontSize: '50px',
-    fontWeight: 'bolder'
-  }
-
   return (
     <div className="App" style={{overflow: 'hidden'}}>    
-            {/* <Row>
-              <Col sm={4}><img src={Logo} style={{width: "100%", height:"auto"}} alt=""/><h1>Accelerating Student Tech Careers</h1></Col>
-              <Col sm={8}><img src={BlueCloud} style={{width: "100%", height:"auto"}} alt=""/></Col>
-            </Row>
-            <Row>
-              <Col sm={4}><img src ={Facebook} alt=""></img><img src ={LinkedIn} alt=""></img><img src ={Email} alt=""></img></Col>
-            </Row>
-            <Row>
-              <Col sm={6}><img src={PinkCloud} style={{width: "100%", height:"auto"}}  alt=""/></Col>
-            </Row> */}
-      
-
-      {/* <div style={{overflow: 'hidden'}}> */}
         <Container>
          
-            {/* <Col md={8}> */}
-              {/* Logo and Slogan */}
               <Row>
-                <Col sm={3}>
-                  <img id="logo" src={require('./Icons/Logo.svg')} alt="logo"/>
-                </Col>
-                <Col sm={1}>
-                </Col>
-                <Col sm={6} style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }}>
-                  <h1 className="name" style={nameFormat}>SprintUofT</h1>
-                </Col>
+
+                <img id="logo" src={require('./Icons/Logo.png')} alt="logo"/>
               </Row>
               
               <Row>
-              <Col md={8}>
-              <h1 className="slogan" style={sloganFormat}>
-                Accelerating Student 
-              </h1>
-              <h1 className="slogan" style={sloganFormat}>
-                Tech Careers
-              </h1>
-              <ContactList 
-                facebook="https://www.google.ca"
-                linkedin="https://www.google.ca"
-                email="https://www.google.ca" />
-            </Col>
-            {/* <Col md={4}>
-              <div style={{
-                position: 'relative',
-                width: '100%',
-                height: '50%'
-              }}>
-                <img src={require('./Icons/Blue_Cloud.svg')} alt="working icon" style={blueCloudStyle} />
-              </div>
-            </Col> */}
+              <Col sm={7}>
+                <h1 className="slogan" style={sloganFormat}>
+                  Accelerating Student 
+                </h1>
+                <h1 className="slogan" style={sloganFormat}>
+                  Careers in Tech
+                </h1>
+
+                  <ContactList
+                    facebook="https://www.facebook.com/SprintUofT/"
+                    linkedin="https://www.google.ca"
+                    email="mailto:sprintuoft@gmail.com" />
+                </Col>
           </Row>
+          
           <img src={require('./Icons/Blue_Cloud.svg')} alt="working icon" style={blueCloudStyle} />
           {botRow}
         </Container>

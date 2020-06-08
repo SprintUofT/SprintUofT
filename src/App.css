@@ -99,11 +99,11 @@ h1.name {
   /* text-align: center; */
 }
 
-#logo { width: 200px; height: 200px; }
+#logo { width: 500px; height: 200px; }
 
 @media(max-width: 480px){
   #logo {
-    width: 125px; height: 125px;
+    width: 312px; height: 125px;
   }
   h1.slogan {
     font-size: 40px;
