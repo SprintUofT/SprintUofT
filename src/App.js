@@ -86,18 +86,20 @@ export default function App() {
               
               <Row>
               <Col sm={7}>
-                <h1 className="slogan" style={sloganFormat}>
-                  Accelerating Student 
-                </h1>
-                <h1 className="slogan" style={sloganFormat}>
-                  Careers in Tech
-                </h1>
+                <div className="title">
+                  <h1 className="slogan" style={sloganFormat}>
+                    Accelerating Student 
+                  </h1>
+                  <h1 className="slogan" style={sloganFormat}>
+                    Careers in Tech
+                  </h1>
 
-                  <ContactList
-                    facebook="https://www.facebook.com/SprintUofT/"
-                    linkedin="https://www.google.ca"
-                    email="mailto:sprintuoft@gmail.com" />
-                </Col>
+                    <ContactList
+                      facebook="https://www.facebook.com/SprintUofT/"
+                      linkedin="https://www.google.ca"
+                      email="mailto:sprintuoft@gmail.com" />
+                </div>                
+              </Col>
           </Row>
           
           <img src={require('./Icons/Blue_Cloud.svg')} alt="working icon" style={blueCloudStyle} />
