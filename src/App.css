@@ -32,7 +32,7 @@ body{
 
 .intro-para::before {
   position: absolute;
-  top: calc(var(--circle-diam) * 0.5);
+  top: calc(var(--circle-diam) * 0.75);
   left: calc( (var(--circle-diam) * -1) - var(--circle-diam)/2 );
   width: var(--circle-diam);
   height: var(--circle-diam);
@@ -49,7 +49,7 @@ body{
   height: 100%;
   width: var(--line-width);
   background-color: var(--primary-colour);
-  top: calc(var(--circle-diam) * 0.5);
+  top: calc(var(--circle-diam) * 0.75);
   left: calc(var(--circle-diam) * -1 - var(--line-width)/2);
 }
 
