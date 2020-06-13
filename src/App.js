@@ -75,6 +75,11 @@ export default function App() {
     fontSize: '50px'
   }
 
+  const development = {
+    fontSize: '9px',
+    textAlign: 'center'
+  }
+
   return (
     <div className="App" style={{overflow: 'hidden'}}>    
         <Container>
@@ -96,7 +101,7 @@ export default function App() {
 
                     <ContactList
                       facebook="https://www.facebook.com/SprintUofT/"
-                      linkedin="https://www.google.ca"
+                      // linkedin="https://www.google.ca"
                       email="mailto:sprintuoft@gmail.com" />
                 </div>                
               </Col>
@@ -105,6 +110,7 @@ export default function App() {
           <img src={require('./Icons/Blue_Cloud.svg')} alt="working icon" style={blueCloudStyle} />
           {botRow}
         </Container>
+        <h4 style={development}>This page is currently under development.</h4>
       </div>
     );
 }

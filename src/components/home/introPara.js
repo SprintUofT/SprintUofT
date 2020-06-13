@@ -6,17 +6,17 @@ export default function IntroPara(props){
     const mobileFontHeading = (isMobile) ? {
         // mobile
         fontSize: '13px',
-        fontWeight: 'bolder' 
+        fontWeight: 'bold' 
       } : {
         fontSize: '25px',
-        fontWeight: 'bolder' 
+        fontWeight: 'bold' 
       }
 
       const mobileFontText = (isMobile) ? {
         // mobile
-        fontSize: '11px',
+        fontSize: '10px',
       } : {
-        fontSize: '16px',
+        fontSize: '15px',
       }
     return(
         <div className="intro-para">
