@@ -93,7 +93,7 @@ export default function App() {
               <Col sm={7}>
                 <div className="title">
                   <h1 className="slogan" style={sloganFormat}>
-                    Accelerating Student 
+                    Advancing Student 
                   </h1>
                   <h1 className="slogan" style={sloganFormat}>
                     Careers in Tech
