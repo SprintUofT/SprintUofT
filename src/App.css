@@ -73,7 +73,7 @@ body{
 }
 
 h1.slogan {
-  font-size: 60px;
+  font-size: 55px;
   margin: 0px;
   background: -webkit-linear-gradient(left, #25CFFD, #B227FF);
   background: -o-linear-gradient(right, #25CFFD, #B227FF);
@@ -127,7 +127,7 @@ h1.name {
     width: 312px; height: 125px;
   }
   h1.slogan {
-    font-size: 40px;
+    font-size: 35px;
   }
   .contact-list {
     width: 100%;
