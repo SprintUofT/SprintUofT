@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "541f0b283502bd29f180565818975d74",
+    "revision": "67744f042732994a37f3cda813c67f65",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "82954eed165826411c2d",
+    "revision": "05b36f069ad1092c5c91",
     "url": "/static/css/main.ba4bd145.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3089bac6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82954eed165826411c2d",
-    "url": "/static/js/main.0c5745b2.chunk.js"
+    "revision": "05b36f069ad1092c5c91",
+    "url": "/static/js/main.d87bb036.chunk.js"
   },
   {
     "revision": "1e9f54f59249af1bf4eb",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6c3fd72131282888f78aa14cc2d514c",
     "url": "/static/media/Facebook_Logo.c6c3fd72.svg"
+  },
+  {
+    "revision": "976b193e4189088a6b2dd58fdc78d706",
+    "url": "/static/media/LinkedIn_Logo.976b193e.svg"
   },
   {
     "revision": "aa874a4a8202e8e2966bedd99beb1a72",
