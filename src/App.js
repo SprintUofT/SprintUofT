@@ -90,7 +90,7 @@ export default function App() {
         </Row>
 
         <Row>
-          <Col sm={7}>
+          <Col sm={5}>
             <div className="title">
               <h1 className="slogan" style={sloganFormat}>
                 Advancing Student
@@ -101,7 +101,7 @@ export default function App() {
 
               <ContactList
                 facebook="https://www.facebook.com/SprintUofT/"
-                // linkedin="https://www.google.ca"
+                linkedin="https://www.linkedin.com/company/sprintuoft/"
                 email="mailto:sprintuoft@gmail.com" />
             </div>
           </Col>
