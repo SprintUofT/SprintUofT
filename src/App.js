@@ -9,78 +9,78 @@ import React from 'react';
 // import Container from 'react-bootstrap/Container';
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
-import Text from './components/home/introText';
-import { Container, Row, Col } from 'react-grid-system';
-import ContactList from './components/contactList';
+// import Text from './components/home/introText';
+// import { Container, Row, Col } from 'react-grid-system';
+// import ContactList from './components/contactList';
 import Calendar from "./components/calendar/calendar.js"
 
 
 export default function App() {
-  const isMobile = window.innerWidth <= 480;
-  // const isLong = window.innerHeight> 820;
+  // const isMobile = window.innerWidth <= 480;
+  // // const isLong = window.innerHeight> 820;
 
-  const pinkCloudStyle = (!isMobile) ?
-    {
-      width: '100%',
-      height: '100%',
-      position: 'absolute',
-      bottom: '-5%',
-      left: '-20%'
-    } :
-    {
-      width: '100%',
-      height: '100%',
-      marginLeft: '-20%'
-    };
+  // const pinkCloudStyle = (!isMobile) ?
+  //   {
+  //     width: '100%',
+  //     height: '100%',
+  //     position: 'absolute',
+  //     bottom: '-5%',
+  //     left: '-20%'
+  //   } :
+  //   {
+  //     width: '100%',
+  //     height: '100%',
+  //     marginLeft: '-20%'
+  //   };
 
-  const blueCloudStyle = (isMobile) ? {
-    // mobile
-    width: '50%',
-    height: 'auto',
-    position: 'absolute',
-    right: '-10%',
-    top: '0%'
-  } : {
-      width: '60%',
-      height: '60%',
-      position: 'absolute',
-      top: '-20%',
-      right: '-10%'
-    }
+  // const blueCloudStyle = (isMobile) ? {
+  //   // mobile
+  //   width: '50%',
+  //   height: 'auto',
+  //   position: 'absolute',
+  //   right: '-10%',
+  //   top: '0%'
+  // } : {
+  //     width: '60%',
+  //     height: '60%',
+  //     position: 'absolute',
+  //     top: '-20%',
+  //     right: '-10%'
+  //   }
 
-  const pinkCloud = (
-    <img src={require('./Icons/Pink_Cloud.svg')}
-      alt="board icon"
-      style={pinkCloudStyle} />
-  );
+  // const pinkCloud = (
+  //   <img src={require('./Icons/Pink_Cloud.svg')}
+  //     alt="board icon"
+  //     style={pinkCloudStyle} />
+  // );
 
-  const botRow = (isMobile) ? (
-    //mobile
-    <Row>
-      <Col md={5}>  <Text /> </Col>
+  // const botRow = (isMobile) ? (
+  //   //mobile
+  //   <Row>
+  //     <Col md={5}>  <Text /> </Col>
 
-      {/* <Col md={7}>  {pinkCloud} </Col> */}
-    </Row>
-  ) : (
-      //desktop
-      <Row>
-        <Col md={6}>  {pinkCloud} </Col>
-        <Col md={6}>  <Text /> </Col>
-      </Row>
-    );
-  const sloganFormat = (isMobile) ? {
-    // mobile
-    fontSize: '25px'
-  } : {
-      fontSize: '43px'
-    }
+  //     {/* <Col md={7}>  {pinkCloud} </Col> */}
+  //   </Row>
+  // ) : (
+  //     //desktop
+  //     <Row>
+  //       <Col md={6}>  {pinkCloud} </Col>
+  //       <Col md={6}>  <Text /> </Col>
+  //     </Row>
+  //   );
+  // const sloganFormat = (isMobile) ? {
+  //   // mobile
+  //   fontSize: '25px'
+  // } : {
+  //     fontSize: '43px'
+  //   }
 
-  const development = {
-    position: 'absolute',
-    fontSize: '9px',
-    left: '8%',
-    bottom: '-35px'
-  }
+  // const development = {
+  //   position: 'absolute',
+  //   fontSize: '9px',
+  //   left: '8%',
+  //   bottom: '-35px'
+  // }
 
   return (
     // <div className="App" style={{ overflow: 'hidden' }}>

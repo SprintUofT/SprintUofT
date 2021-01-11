@@ -302,7 +302,7 @@ export default class CustomCalendar extends Component {
                             <div id="date" className="date-mobile">
                                 <p> <span>Start:</span> {start} </p>
                                 <p><span>End:</span>  {end} </p>
-                                <p><span>Zoom Link:</span>  <a rel="noreferrer" target="_blank" href={this.state.link}> {this.state.link}</a> </p>
+                                <p><span>Zoom Link:</span>  <a rel="noopener noreferrer"  target="_blank" href={this.state.link}> {this.state.link}</a> </p>
                             </div> 
                             <div id="description" className="description-mobile">
                                 <p>{this.state.desc}</p>
@@ -339,7 +339,7 @@ export default class CustomCalendar extends Component {
                             <div id="date" className="date-tablet">
                                 <p> <span>Start:</span> {start} </p>
                                 <p><span>End:</span>  {end} </p>
-                                <p><span>Zoom Link:</span>  <a rel="noreferrer" target="_blank" href={this.state.link}> {this.state.link}</a> </p>
+                                <p><span>Zoom Link:</span>  <a target="_blank" rel="noopener noreferrer"  href={this.state.link}> {this.state.link}</a> </p>
                             </div> 
                             <div id="description" className="description-tablet">
                                 <p>{this.state.desc}</p>
@@ -376,7 +376,7 @@ export default class CustomCalendar extends Component {
                             <div id="date" className="date">
                                 <p> <span>Start:</span> {start} </p>
                                 <p><span>End:</span>  {end} </p>
-                                <p><span>Zoom Link:</span>  <a rel="noreferrer" target="_blank" href={this.state.link}> {this.state.link}</a> </p>
+                                <p><span>Zoom Link:</span>  <a rel="noopener noreferrer"  target="_blank" href={this.state.link}> {this.state.link}</a> </p>
                             </div> 
                             <div id="description" className="description">
                                 <p>{this.state.desc}</p>
