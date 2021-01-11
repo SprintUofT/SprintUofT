@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.container-mobile {
+    display: grid;
+    grid-template-rows: max-content max-content;
+    grid-template-columns: 100vw;
+    margin: 20px auto;
+    left: 50%;    
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(180,180,180,1);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(180,180,180,1);
+    box-shadow: 0px 0px 2px 1px rgba(180,180,180,1);
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    background: white;
+    width: calc(95vw - 20px);
+    max-width: calc(95vw - 20px);
+}
+
+
+.calendar-mobile {
+    display: inline-grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    float: left;
+    background-color: white;
+    max-height: 90vh;
+    min-height: max-content;
+    height: 90vh ;
+    max-width: inherit;
+    width: inherit ;
+    border-bottom-color: #ddd;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    &,
+    & > * {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rbc-timeslot-group {
+        font-size: 4vw;
+    }
+
+    .rbc-calendar {
+        flex: 1;
+        min-height: 500px;
+        font-family: Raleway;
+        font-size: 4vw;
+    }
+
+    .rbc-event-label {
+        display: none;
+    }
+
+    .rbc-header {
+        font-weight: 500;
+        font-size: 3vw;
+        border-left: none;
+    }
+
+    .rbc-month-view {
+        border: none;
+    }
+
+    .rbc-agenda-table tr {
+        background-color: white!important;
+        border-color: #ddd!important;
+        border-width: 1px!important;
+    }
+
+    .rbc-agenda-date-cell {
+        font-size: 3vw;
+    }
+
+    .rbc-agenda-time-cell {
+        font-size: 3vw;
+        font-style: italic;
+
+    }
+
+    .rbc-agenda-event-cell {
+        font-size: 3vw;
+    }
+
+    .rbc-show-more {
+        color: black;
+        font-size: 12px;
+    }
+    
+    .rbc-toolbar {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nav button{
+        outline: none;
+        border: none;
+        color: #7B7B7B;
+        font-weight: 900;
+        font-size: 4vw!important;
+    }
+
+    .rbc-btn-group {
+        padding: 2px 0;
+    }
+    
+    .rbc-btn-group button{
+        border-radius: 10px;
+        outline: none;
+        font-size:3vw;
+        margin: 7px 0;
+    }
+
+    .views  {
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    .rbc-toolbar-label {
+        font-size: 7vw;
+        font-weight: 900;
+        text-align: center;
+        flex: unset;
+    }
+
+    .rbc-current-time-indicator {
+        background-color: #5497f7;
+        height: 2px;
+
+    }
+}
+
+
+
+.event-container-mobile {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content max-content max-content;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    max-height: 90vh;
+    min-height: max-content;
+    height: 90vh ;
+    max-width: inherit;
+    width: inherit;
+    border-left: rgba(180,180,180,1);
+    font-family: Raleway;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.title-mobile {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-height: 25vh;
+    min-height: max-content;
+    height: max-content;
+    max-width: inherit;
+    width: inherit;
+    font-size: 7vw;
+    text-align: left;
+
+}
+
+.title-mobile p {
+    padding: 20px;
+    padding-bottom: 25px;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.date-mobile {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    max-height: 20vh;
+    height: 20vh;
+    max-width: inherit;
+    width: inherit;
+    text-align: left;
+    font-size: 3.5vw;
+}
+.date-mobile p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
+}
+
+.date-mobile p span  {
+    font-size: 4vw;
+}
+
+.date-mobile p a {
+    color: #0156ce;
+}
+
+.description-mobile {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    max-height: 45vh;
+    height: max-content;
+    min-height: max-content;
+    max-width: inherit;
+    width: inherit;
+    text-align: left;
+    font-size: 3.5vw;
+    margin-right: 30px;
+}
+.description-mobile p {
+    padding: 0 30px;
+    margin: 0px;
+}
+
+.event-container-mobile div {
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+.event-container-mobile div::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.event-container-mobile div::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.event-container-mobile div::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.event-container-mobile div::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+

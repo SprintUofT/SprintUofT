@@ -5,15 +5,15 @@ import React from 'react';
 // import Facebook from './Icons/Facebook_Logo.svg';
 // import Email from './Icons/Email_Logo.svg';
 // import PinkCloud from './Icons/Pink_Cloud.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 // import Container from 'react-bootstrap/Container';
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
 import Text from './components/home/introText';
 import { Container, Row, Col } from 'react-grid-system';
-import './App.css';
 import ContactList from './components/contactList';
+import Calendar from "./components/calendar/calendar.js"
+
 
 export default function App() {
   const isMobile = window.innerWidth <= 480;
@@ -83,37 +83,44 @@ export default function App() {
   }
 
   return (
-    <div className="App" style={{ overflow: 'hidden' }}>
-      <Container>
-        <Row>
-          <img id="logo" src={require('./Icons/Logo.png')} alt="logo" />
-        </Row>
+    // <div className="App" style={{ overflow: 'hidden' }}>
+    //   <Container>
+    //     <Row>
+    //       <img id="logo" src={require('./Icons/Logo.png')} alt="logo" />
+    //     </Row>
 
-        <Row>
-          <Col sm={5}>
-            <div className="title">
-              <h1 className="slogan" style={sloganFormat}>
-                Advancing Student
-                  </h1>
-              <h1 className="slogan" style={sloganFormat}>
-                Careers in Tech
-                  </h1>
+    //     <Row>
+    //       <Col sm={5}>
+    //         <div className="title">
+    //           <h1 className="slogan" style={sloganFormat}>
+    //             Advancing Student
+    //               </h1>
+    //           <h1 className="slogan" style={sloganFormat}>
+    //             Careers in Tech
+    //               </h1>
 
-              <ContactList
-                facebook="https://www.facebook.com/SprintUofT/"
-                linkedin="https://www.linkedin.com/company/sprintuoft/"
-                email="mailto:sprintuoft@gmail.com" />
-            </div>
-          </Col>
-        </Row>
+    //           <ContactList
+    //             facebook="https://www.facebook.com/SprintUofT/"
+    //             linkedin="https://www.linkedin.com/company/sprintuoft/"
+    //             email="mailto:sprintuoft@gmail.com" />
+    //         </div>
+    //       </Col>
+    //     </Row>
 
-        <img src={require('./Icons/Blue_Cloud.svg')} alt="working icon" style={blueCloudStyle} />
-        {botRow}
-        <h4 style={development}>This page is currently under development.</h4>
-      </Container>
-      <br />
-      <br />
-      {/* <h4 style={development}>This page is currently under development.</h4> */}
+    //     <img src={require('./Icons/Blue_Cloud.svg')} alt="working icon" style={blueCloudStyle} />
+    //     {botRow}
+    //     <h4 style={development}>This page is currently under development.</h4>
+    //   </Container>
+    //   <br />
+    //   <br />
+    //   {/* <h4 style={development}>This page is currently under development.</h4> */}
+    // </div>
+    <div className="App">
+      <Calendar/>
     </div>
+
   );
 }
+
+
+

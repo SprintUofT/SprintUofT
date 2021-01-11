@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.container {
+    display: grid;
+    grid-template-rows: 70vh;
+    grid-template-columns: max-content max-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(180,180,180,1);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(180,180,180,1);
+    box-shadow: 0px 0px 2px 1px rgba(180,180,180,1);
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+
+.calendar {
+    display: inline-grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    float: left;
+    background-color: white;
+    height: 70vh ;
+    width: 60vw ;
+    border-right-color: #ddd;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+
+    &,
+    & > * {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rbc-calendar {
+        flex: 1;
+        min-height: 500px;
+        font-family: Raleway;
+        font-size: 1.5vw;
+    }
+
+    .rbc-event-label {
+        display: none;
+    }
+
+    .rbc-header {
+        font-weight: 500;
+        font-size: 15px;
+        border-left: none;
+    }
+
+    .rbc-month-view {
+        border: none;
+    }
+
+    .rbc-agenda-table tr {
+        background-color: white!important;
+        border-color: #ddd!important;
+        border-width: 1px!important;
+    }
+
+    .rbc-agenda-date-cell {
+        font-size: 1vw;
+    }
+
+    .rbc-agenda-time-cell {
+        font-size: 1vw;
+        font-style: italic;
+    }
+
+    .rbc-agenda-event-cell {
+        font-size: 1vw;
+    }
+
+    .rbc-show-more {
+        color: black;
+    }
+
+    .rbc-toolbar {
+        margin-top: 10px;
+        margin-left: 5px;
+        justify-content: unset;
+    }
+    
+    .nav button{
+        outline: none;
+        border: none;
+        font-size: 2.5vw;
+        color: #7B7B7B;
+        font-weight: 900;
+    }
+    
+    .rbc-btn-group button{
+        border-radius: 10px;
+        outline: none;
+    }
+    .views  {
+        margin-left: auto; 
+        margin-right: 15px;
+    }
+    .rbc-toolbar-label {
+        font-size: 2.5vw;
+        font-weight: 900;
+        text-align: center;
+        flex: unset;
+    }
+
+    .rbc-current-time-indicator {
+        background-color: #5497f7;
+        height: 2px;
+
+    }
+    
+}
+
+.event-container {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content max-content max-content;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    height: 70vh ;
+    border-left: rgba(0,180,180,1);
+    font-family: Raleway;
+    border-radius: 10px;
+
+}
+
+.title {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-height: 18vh;
+    min-height: max-content;
+    height: max-content;
+    max-width: 25vw;
+    width: 25vw;
+    font-size: 2.5vw;
+    text-align: left;
+
+}
+
+.title p {
+    padding: 20px;
+    padding-bottom: 25px;
+    margin: 0px;
+    font-weight: 900;
+
+}
+
+.date {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    max-height: 15vh;
+    height: 15vh;
+    max-width: 25vw;
+    width: 25vw;
+    text-align: left;
+    font-size: 1vw;
+}
+.date p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.date p span  {
+    font-size: 1.4vw;
+}
+
+.date p a {
+    color: #0156ce;
+}
+
+
+.description {
+    display: inline-grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    max-height: 35vh;
+    height: max-content;
+    min-height: max-content;
+    max-width: 25vw;
+    width: 25vw;
+    text-align: left;
+    font-size: 1.1vw;
+    margin-right: 10px;
+}
+.description p {
+    padding: 0 20px;
+    margin: 0px;
+}
+
+.event-container div {
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+.event-container div::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.event-container div::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.event-container div::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.event-container div::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
